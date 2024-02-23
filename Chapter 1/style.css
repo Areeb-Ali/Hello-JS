@@ -1,0 +1,38 @@
+a{
+    color: #0000ff;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+
+ul li {
+    font-size: 15px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h2{
+    font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #f77979, #f7b733);
+  color: #fff;
+
+}
+
+body{
+    background-color: aquamarine;
+    color: black;
+}
+.border{
+    text-shadow: 1px 1px 0px rgb(255, 255, 255),
+            -1px -1px 0px rgb(255, 255, 255),
+            1px -1px 0px rgb(255, 255, 255),
+            -1px 1px 0px rgb(255, 255, 255);
+}
