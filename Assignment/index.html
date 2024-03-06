@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Mark Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Marks Calculator</h1>
+        <form id="mark-form">
+            <label for="che-marks">Enter your Chemistry Marks</label>
+            <input type="number" id="che-marks" placeholder="000" class="marks" min="0" max="100" required>
+            <br>
+            <label for="math-marks">Enter your Math marks</label>
+            <input type="number" id="math-marks" placeholder="000" class="marks" min="0" max="100" required>
+            <br>
+            <label for="phy-marks">Enter your Physics Marks</label>
+            <input type="number" id="phy-marks" placeholder="000" class="marks" min="0" max="100" required>
+            <br>
+            <label for="com-marks">Enter your Computer Marks</label>
+            <input type="number" id="com-marks" placeholder="000" class="marks" min="0" max="100" required>
+            <br>
+            <button>Calculate Marks</button>
+        </form>
+        <div id="results">
+            <h2>Result</h2>
+            <p>Percentage:</p>
+            <span id="percentage"></span>
+            <p>Total obtained Marks:</p>
+            <span id="total-marks-display"></span>
+            <p>Grade:</p>
+            <span id="grade"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
