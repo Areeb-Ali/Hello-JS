@@ -24,14 +24,16 @@
             <label for="com-marks">Enter your Computer Marks</label>
             <input type="number" id="com-marks" placeholder="000" class="marks" min="0" max="100" required>
             <br>
-            <button>Calculate Marks</button>
+            <button onclick="calculatePercentage()">Calculate Marks</button>
         </form>
         <div id="results">
             <h2>Result</h2>
+            <p>Total Marks:</p>
+            <span id="total-marks"></span>
             <p>Percentage:</p>
             <span id="percentage"></span>
             <p>Total obtained Marks:</p>
-            <span id="total-marks-display"></span>
+            <span id="total-marks-obtained"></span>
             <p>Grade:</p>
             <span id="grade"></span>
         </div>

@@ -33,7 +33,8 @@ input[type="number"] {
 }
 
 button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
+    /* Green */
     border: none;
     color: #ffffff;
     padding: 10px 20px;
@@ -67,14 +68,4 @@ p {
 
 span {
     font-weight: bold;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    padding: 5px;
-    border: 1px solid #ccc
 }
