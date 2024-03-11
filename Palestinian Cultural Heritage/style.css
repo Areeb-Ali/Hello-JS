@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #17499e;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.music-container,
+.art-gallery,
+.recipe-cards,
+.tatreez-display,
+.landmarks-map {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.music-container audio {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.art-gallery img {
+    width: 45%;
+    margin: 5px;
+}
+
+.recipe-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.recipe {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.recipe img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.tatreez-display img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.landmarks-map img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #17499e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
