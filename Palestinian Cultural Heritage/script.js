@@ -1,27 +1,37 @@
-const container = document.createElement('div');
-document.body.appendChild(container);
 
-const heading = document.createElement('h1');
-heading.textContent = 'Code and Live Website';
-container.appendChild(heading);
+    // Function to create heading and buttons dynamically
+    function createElements() {
+      const container = document.createElement('div');
+      container.id = 'container';
 
-const message = document.createElement('p');
-message.textContent = 'Code has been shifted to a separate repository.';
-container.appendChild(message);
+      const heading = document.createElement('h1');
+      heading.textContent = 'Code Shifted to Separate Repository';
 
-const codeButton = document.createElement('button');
-codeButton.textContent = 'See Code';
-container.appendChild(codeButton);
+      const viewCodeButton = document.createElement('button');
+      viewCodeButton.id = 'view-code';
+      viewCodeButton.textContent = 'View Code';
 
-const websiteButton = document.createElement('button');
-websiteButton.textContent = 'See Live Website';
-container.appendChild(websiteButton);
+      const viewWebsiteButton = document.createElement('button');
+      viewWebsiteButton.id = 'view-website';
+      viewWebsiteButton.textContent = 'View Live Website';
 
-// Handle button clicks (replace with actual links)
-codeButton.addEventListener('click', () => {
-  window.open('https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories', '_blank'); // Replace with your code repository URL
-});
+      container.appendChild(heading);
+      container.appendChild(viewCodeButton);
+      container.appendChild(viewWebsiteButton);
 
-websiteButton.addEventListener('click', () => {
-  window.open('https://themeisle.com/blog/what-is-a-website-url/', '_blank'); // Replace with your website URL
-});
+      document.body.appendChild(container);
+    }
+
+    // Call the function to create elements
+    createElements();
+
+    // Add click event listeners to buttons (replace with your actual links)
+    const viewCodeButton = document.getElementById('view-code');
+    viewCodeButton.addEventListener('click', () => {
+      window.open('#'); // Replace with your code repository link
+    });
+
+    const viewWebsiteButton = document.getElementById('view-website');
+    viewWebsiteButton.addEventListener('click', () => {
+      window.open('#'); // Replace with your live website link
+    });

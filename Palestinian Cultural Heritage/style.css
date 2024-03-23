@@ -1,0 +1,19 @@
+#container {
+    text-align: center;
+    padding: 20px;
+  }
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #view-code {
+    background-color: #3498db;
+    color: white;
+  }
+  #view-website {
+    background-color: #2ecc71;
+    color: white;
+  }
